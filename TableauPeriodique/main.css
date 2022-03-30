@@ -1,0 +1,98 @@
+body
+        {
+           background-color:silver;
+        }
+
+#tableau td
+        {
+	       height:45px;
+	       width:40px;
+	       font-size:15px;
+	       text-align:center;
+	       background-color:#ffffff;
+        }
+
+#tableau td.gaz
+        {
+	      height:45px;
+	      width:40px;
+	      font-size:15px;
+	      text-align:center;
+	      background-color:#e0e0e0;
+        }
+
+#tableau td.gaz:hover
+        {
+	     background-color:#ff0000;
+	     color:#000000;
+        }
+
+#tableau td.liq:hover
+        {
+	     background-color:#ff0000;
+	     color:#000000;
+        }
+
+#tableau td.sol:hover
+        {
+	     background-color:#ff0000;
+	     color:#000000;
+		
+        }
+
+#tableau td.liq
+        {
+         height:45px;
+	     width:40px;
+	     font-size:15px;
+	     text-align:center;
+	     background-color:#67D8F9;
+	     color:#0099FF;
+        }
+
+#tableau td.sol
+        {
+         height:45px;
+	     width:40px;
+	     font-size:15px;
+	     text-align:center;
+	     background-color:#FFFF53;
+	     color:red;
+        }
+
+#tableau td.vide
+        {
+         background-color:silver;
+        }
+
+#solide
+        {
+         width:100;
+         text-align:center;
+         background-color:#FFFF53;
+         color:red;
+         position:absolute;
+         top:620px;
+         left:850;
+        }
+
+#liquide
+        {
+         width:100;
+         text-align:center;
+         background-color:#67D8F9;
+         color:#0099FF;
+         position:absolute;
+         top:620px;
+         left:650;
+        }
+
+#gazeux
+        {
+         width:100;
+         text-align:center;
+         background-color:#e0e0e0;
+         position:absolute;
+         top:620px;
+         left:450;
+        }

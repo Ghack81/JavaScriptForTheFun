@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tableau des éléments</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="main.css"/>
+<script type= "text/javascript">
+
+tbtest = new Array();
+tbtest['H']= new Array("Hydrogène",1.0079);
+tbtest['02']= new Array("Hélium",4.0026);
+tbtest['03']= new Array("Lithium",6.941);
+tbtest['04']= new Array("Béryllium",9.0122);
+tbtest['05']= new Array("Bore",10.81);
+tbtest['06']= new Array("Carbone",12.011);
+tbtest['07']= new Array("Azote",14.0067);
+tbtest['08']= new Array("Oxygéne",15.9994);
+tbtest['09']= new Array("Fluor",18.9984);
+tbtest['10']= new Array("Néon",20.179);
+tbtest['11']= new Array("Sodium",22.9898);
+tbtest['12']= new Array("Magnésium",24.305);
+tbtest['13']= new Array("Aluminium",26.9815);
+tbtest['14']= new Array("Silicium",28.086);
+tbtest['15']= new Array("Phosphore",30.9738);
+tbtest['16']= new Array("Soufre",32.06);
+tbtest['17']= new Array("Chlore",35.453);
+tbtest['18']= new Array("Argon",39.948);
+tbtest['19']= new Array("Potassium",39.102);
+tbtest['20']= new Array("Calcium",40.08);
+tbtest['21']= new Array("Scandium",44.9559);
+tbtest['22']= new Array("Titane",47.90);
+tbtest['23']= new Array("Vanadium",50.9414);
+tbtest['24']= new Array("Chrome",51.996);
+tbtest['25']= new Array("Manganèse",54.938);
+tbtest['26']= new Array("Fer",55.847);
+tbtest['27']= new Array("Cobalt",58.9332);
+tbtest['28']= new Array("Nickel",58.70);
+tbtest['29']= new Array("Cuivre",63.546);
+tbtest['30']= new Array("Zinc",65.38);
+tbtest['31']= new Array("Gallium",69.72);
+tbtest['32']= new Array("Germanium",72.59);
+tbtest['33']= new Array("Arsenic",74.9216);
+tbtest['34']= new Array("Sélénium",78.96);
+tbtest['35']= new Array("Brome",79.904);
+tbtest['36']= new Array("Krypton",83.80);
+tbtest['37']= new Array("Rubidium",85.4678);
+tbtest['38']= new Array("Strontium",87.62);
+tbtest['39']= new Array("Yttrium",88.9059);
+tbtest['40']= new Array("Zirconium",91.22);
+tbtest['41']= new Array("Niobium",92.9064);
+tbtest['42']= new Array("Molybdène",95.94);
+tbtest['43']= new Array("Technétium",98.9062);
+tbtest['44']= new Array("Ruthénium",101.07);
+tbtest['45']= new Array("Rhodium",102.9055);
+tbtest['46']= new Array("Palladium",106.4);
+tbtest['47']= new Array("Argent",107.868);
+tbtest['48']= new Array("Cadmiun",112.40);
+tbtest['49']= new Array("Indium",114.82);
+tbtest['50']= new Array("Etain",118.69);
+tbtest['51']= new Array("Antimoine",121.75);
+tbtest['52']= new Array("Tellure",127.60);
+tbtest['53']= new Array("Iode",126.9045);
+tbtest['54']= new Array("Xénon",131.30);
+tbtest['55']= new Array("Césium",132.905);
+tbtest['56']= new Array("Baryum",137.34);
+tbtest['57']= new Array("Lanthane",138.9055);
+tbtest['58']= new Array("Cérium",140.12);
+tbtest['59']= new Array("Praséodyrne",140.9077);
+tbtest['60']= new Array("Néodyme",144.24);
+tbtest['61']= new Array("Prométhium",146.92);
+tbtest['62']= new Array("Samarium",150.4);
+tbtest['63']= new Array("Europium",151.96);
+tbtest['64']= new Array("Gadolinium",157.25);
+tbtest['65']= new Array("Terbium",158.9254);
+tbtest['66']= new Array("Dysrposium",162.50);
+tbtest['67']= new Array("Holmium",164.9340);
+tbtest['68']= new Array("Erbium",167.26);
+tbtest['69']= new Array("Thulium",168.9342);
+tbtest['70']= new Array("Ytterbium",173.04);
+tbtest['71']= new Array("Lutétium",174.97);
+tbtest['72']= new Array("Hafnium",178.49);
+tbtest['73']= new Array("Tantale",180.9479);
+tbtest['74']= new Array("Tungstène",183.85);
+tbtest['75']= new Array("Rhénium",186.207);
+tbtest['76']= new Array("Osmium",190.2);
+tbtest['77']= new Array("Iridium",192.22);
+tbtest['78']= new Array("Platine",195.09);
+tbtest['79']= new Array("Or",196.9665);
+tbtest['80']= new Array("Mercure",200.59);
+tbtest['81']= new Array("Thallium",204.37);
+tbtest['82']= new Array("Plomb",207.2);
+tbtest['83']= new Array("Bismuth",209.9804);
+tbtest['84']= new Array("Polonium",209);
+tbtest['85']= new Array("Astate",210);
+tbtest['86']= new Array("Radon",222);
+tbtest['87']= new Array("Francium",223);
+tbtest['88']= new Array("Radium",226.0254);
+tbtest['89']= new Array("Actinium",227.03);
+tbtest['90']= new Array("Thorium",232.0381);
+tbtest['91']= new Array("Protactinium",231.0359);
+tbtest['92']= new Array("Uranium",238.029);
+tbtest['93']= new Array("Neptunium",237.0482);
+tbtest['94']= new Array("Plutonium",239.05);
+tbtest['95']= new Array("Américium",241.06);
+tbtest['96']= new Array("Curium",247.07);
+tbtest['97']= new Array("Berkélium",249.08);
+tbtest['98']= new Array("Californium",251.08);
+tbtest['99']= new Array("Einsteinium",254.09);
+tbtest['100']= new Array("Fermium",257.10);
+tbtest['101']= new Array("Mendelévium",258.10);
+tbtest['102']= new Array("Nobélium",255);
+tbtest['103']= new Array("Lawrencium",262.1);
+tbtest['104']= new Array("Rutherfordium",261);
+tbtest['105']= new Array("Dubnium",262);
+tbtest['106']= new Array("Seaborgium",263);
+tbtest['107']= new Array("Bohrium",262);
+tbtest['108']= new Array("Hassium",265);
+tbtest['109']= new Array("Meitnerium",266);
+
+
+function test(param) 
+{
+document.getElementById('resultat').value ="Nom : "+tbtest[param][0]+"\nMasse : "+tbtest[param][1];
+}	
+</script>
+</head>
+<body>
+	</br>
+<center><h1><u>TABLEAU PERIODIQUE DES ELEMENTS</u></h1></center>
+</br>
+<table border="0" align="center" id="tableau" >
+<tr>
+<td class="gaz" id="01" onMouseOver="javascript:test('H');">H</td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="vide"></td>
+<td class="gaz" id="02" onMouseOver="javascript:test('02');">He</td>
+</tr>
+<tr>
+<td class= "liq" id="03" onMouseOver= "javascript:test('03');">Li</td>
+<td class= "sol" id="04" onMouseOver = "javascript:test('04');">Be</td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide" colspan="4" rowspan="2" align="center"><textarea id="resultat" name="resultat"></textarea></td>
+<td class= "vide" ></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "sol" id="05" onMouseOver= "javascript:test('05');">B</td>
+<td class= "sol" id="06" onMouseOver= "javascript:test('06');">C</td>
+<td class= "gaz" id="07" onMouseOver= "javascript:test('07');">N</td>
+<td class= "gaz" id="08" onMouseOver= "javascript:test('08');">O</td>
+<td class= "gaz" id="09" onMouseOver= "javascript:test('09');">F</td>
+<td class= "gaz" id="10" onMouseOver= "javascript:test('10');">Ne</td>
+</tr>
+<tr>
+<td class= "sol" id="11" onMouseOver= "javascript:test('11');">Na</td>
+<td class= "sol" id="12" onMouseOver= "javascript:test('12');">Mg</td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+
+<td class= "sol" id="13" onMouseOver= "javascript:test('13');">Al</td>
+<td class= "sol" id="14" onMouseOver= "javascript:test('14');">Si</td>
+<td class= "sol" id="15" onMouseOver= "javascript:test('15');">P</td>
+<td class= "sol" id="16" onMouseOver= "javascript:test('16');">S</td>
+<td class= "gaz" id="17" onMouseOver= "javascript:test('17');">Cl</td>
+<td class= "gaz" id="18" onMouseOver= "javascript:test('18');">Ar</td>
+</tr>
+<tr>
+<td class= "sol" id="19" onMouseOver= "javascript:test('19');">K</td>
+<td class= "sol" id="20" onMouseOver= "javascript:test('20');">Ca</td>
+<td class= "sol" id="21" onMouseOver= "javascript:test('21');">Sc</td>
+<td class= "sol" id="22" onMouseOver= "javascript:test('22');">Ti</td>
+<td class= "sol" id="23" onMouseOver= "javascript:test('23');">V</td>
+<td class= "sol" id="24" onMouseOver= "javascript:test('24');">Cr</td>
+<td class= "sol" id="25" onMouseOver= "javascript:test('25');">Mn</td>
+<td class= "sol" id="26" onMouseOver= "javascript:test('26');">Fe</td>
+<td class= "sol" id="27" onMouseOver= "javascript:test('27');">Co</td>
+<td class= "sol" id="28" onMouseOver= "javascript:test('28');">Ni</td>
+<td class= "sol" id="29" onMouseOver= "javascript:test('29');">Cu</td>
+<td class= "sol" id="30" onMouseOver= "javascript:test('30');">Zn</td>
+<td class= "sol" id="31" onMouseOver= "javascript:test('31');">Ga</td>
+<td class= "sol" id="32" onMouseOver= "javascript:test('32');">Ge</td>
+<td class= "sol" id="33" onMouseOver= "javascript:test('33');">As</td>
+<td class= "sol" id="34" onMouseOver= "javascript:test('34');">Se</td>
+<td class= "gaz" id="35" onMouseOver= "javascript:test('35');">Br</td>
+<td class= "gaz" id="36" onMouseOver= "javascript:test('36');">Kr</td>
+</tr>
+<tr>
+<td class= "sol" id="37" onMouseOver= "javascript:test('37');">Rb</td>
+<td class= "sol" id="38" onMouseOver= "javascript:test('38');">Sr</td>
+<td class= "sol" id="39" onMouseOver= "javascript:test('39');">Y</td>
+<td class= "sol" id="40" onMouseOver= "javascript:test('40');">Zr</td>
+<td class= "sol" id="41" onMouseOver= "javascript:test('41');">Nb</td>
+<td class= "sol" id="42" onMouseOver= "javascript:test('42');">Mo</td>
+<td class= "sol" id="43" onMouseOver= "javascript:test('43');">Tc</td>
+<td class= "sol" id="44" onMouseOver= "javascript:test('44');">Ru</td>
+<td class= "sol" id="45" onMouseOver= "javascript:test('45');">Rh</td>
+<td class= "sol" id="46" onMouseOver= "javascript:test('46');">Pb</td>
+<td class= "sol" id="47" onMouseOver= "javascript:test('47');">Ag</td>
+<td class= "sol" id="48" onMouseOver= "javascript:test('48');">Cd</td>
+<td class= "sol" id="49" onMouseOver= "javascript:test('49');">In</td>
+<td class= "sol" id="50" onMouseOver= "javascript:test('50');">Sn</td>
+<td class= "sol" id="51" onMouseOver= "javascript:test('51');">Sb</td>
+<td class= "sol" id="52" onMouseOver= "javascript:test('52');">Te</td>
+<td class= "sol" id="53" onMouseOver= "javascript:test('53');">I</td>
+<td class= "gaz" id="54" onMouseOver= "javascript:test('54');">Xe</td>
+</tr>
+<tr>
+<td class= "sol" id="55" onMouseOver= "javascript:test('55');">Cs</td>
+<td class= "sol" id="56" onMouseOver= "javascript:test('56');">Ba</td>
+<td class= "sol" id="57" onMouseOver= "javascript:test('57');">La</td>
+<td class= "sol" id="72" onMouseOver= "javascript:test('72');">Hf</td>
+<td class= "sol" id="73" onMouseOver= "javascript:test('73');">Ta</td>
+<td class= "sol" id="74" onMouseOver= "javascript:test('74');">W</td>
+<td class= "sol" id="75" onMouseOver= "javascript:test('75');">Re</td>
+<td class= "sol" id="76" onMouseOver= "javascript:test('76');">Os</td>
+<td class= "sol" id="77" onMouseOver= "javascript:test('77');">Ir</td>
+<td class= "sol" id="78" onMouseOver= "javascript:test('78');">Pt</td>
+<td class= "sol" id="79" onMouseOver= "javascript:test('79');">Au</td>
+<td class= "liq" id="80" onMouseOver= "javascript:test('80');">Hg</td>
+<td class= "sol" id="81" onMouseOver= "javascript:test('81');">Ti</td>
+<td class= "sol" id="82" onMouseOver= "javascript:test('82');">Pb</td>
+<td class= "sol" id="83" onMouseOver= "javascript:test('83');">Bi</td>
+<td class= "sol" id="84" onMouseOver= "javascript:test('84');">Po</td>
+<td class= "sol" id="85" onMouseOver= "javascript:test('85');">At</td>
+<td class= "gaz" id="86" onMouseOver= "javascript:test('86');">Rn</td>
+</tr>
+<tr>
+<td class= "sol" id="87" onMouseOver= "javascript:test('87');">Fr</td>
+<td class= "sol" id="88" onMouseOver= "javascript:test('88');">Ra</td>
+<td class= "sol" id="89" onMouseOver= "javascript:test('89');">Ac</td>
+<td class= "sol" id="104" onMouseOver= "javascript:test('104');">Rf</td>
+<td class= "sol" id="105" onMouseOver= "javascript:test('105');">Db</td>
+<td class= "sol" id="106" onMouseOver= "javascript:test('106');">Sg</td>
+<td class= "sol" id="107" onMouseOver= "javascript:test('107');">Bh</td>
+<td class= "sol" id="108" onMouseOver= "javascript:test('108');">Hs</td>
+<td class= "sol" id="109" onMouseOver= "javascript:test('109');">Mt</td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+<td class= "vide"></td>
+</tr>
+<tr>
+<td class= "vide"></td>
+<td colspan= "2" class= "vide">LANTHANIDES</td>
+<td class= "vide"></td>
+</td class= "vide"></td>
+<td class= "sol" id="58" onMouseOver= "javascript:test('58');">Ce</td>
+<td class= "sol" id="59" onMouseOver= "javascript:test('59');">Pr</td>
+<td class= "sol" id="60" onMouseOver= "javascript:test('60');">Nd</td>
+<td class= "sol" id="61" onMouseOver= "javascript:test('61');">Pm</td>
+<td class= "sol" id="62" onMouseOver= "javascript:test('62');">Sm</td>
+<td class= "sol" id="63" onMouseOver= "javascript:test('63');">Eu</td>
+<td class= "sol" id="64" onMouseOver= "javascript:test('64');">Gb</td>
+<td class= "sol" id="65" onMouseOver= "javascript:test('65');">Tb</td>
+<td class= "sol" id="66" onMouseOver= "javascript:test('66');">Dy</td>
+<td class= "sol" id="67" onMouseOver= "javascript:test('67');">Ho</td>
+<td class= "sol" id="68" onMouseOver= "javascript:test('68');">Er</td>
+<td class= "sol" id="69" onMouseOver= "javascript:test('69');">Tm</td>
+<td class= "sol" id="70" onMouseOver= "javascript:test('70');">Yb</td>
+<td class= "sol" id="71" onMouseOver= "javascript:test('71');">Lu</td>
+</tr>
+<tr>
+<td class= "vide"></td>
+<td colspan= "2" class= "vide">ACTINIDES</td>
+<td class= "vide"></td>
+<td class= "sol" id="96" onMouseOver= "javascript:test('96');">Th</td>
+<td class= "sol" id="97" onMouseOver= "javascript:test('97');">Pa</td>
+<td class= "sol" id="98" onMouseOver= "javascript:test('98');">U</td>
+<td class= "sol" id="99" onMouseOver= "javascript:test('99');">Np</td>
+<td class= "sol" id="100" onMouseOver= "javascript:test('100');">Pu</td>
+<td class= "sol" id="101" onMouseOver= "javascript:test('101');">Am</td>
+<td class= "sol" id="102" onMouseOver= "javascript:test('102');">Cm</td>
+<td class= "sol" id="103" onMouseOver= "javascript:test('103');">Bk</td>
+<td class= "sol" id="104" onMouseOver= "javascript:test('104');">Cf</td>
+<td class= "sol" id="105" onMouseOver= "javascript:test('105');">Es</td>
+<td class= "sol" id="106" onMouseOver= "javascript:test('106');">Fm</td>
+<td class= "sol" id="107" onMouseOver= "javascript:test('107');">Md</td>
+<td class= "sol" id="108" onMouseOver= "javascript:test('108');">No</td>
+<td class= "sol" id="109" onMouseOver= "javascript:test('109');">Lw</td>
+</tr>
+</table>
+<div id="solide">SOLIDE</div>
+<div id="liquide">LIQUIDE</div>
+<div id="gazeux">GAZEUX</div>
+</body>
+</html>
