@@ -9,8 +9,22 @@
     </head>
 <body>
 <h2>JavaScript in Head with a Function</h2>
+
 <p is= "demo">A Paragraph</p>
 
 <button type="button" onclick="myFunction()">Try It</button>
+
+<!--JavaScript in the BODY-->
+<h2>Demo JavaScript in Body</h2>
+
+<p id="demo2">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo2").innerHTML = "Paragraph changed.";
+}
+</script>
 </body>
 </html>
