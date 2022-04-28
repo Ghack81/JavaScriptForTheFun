@@ -1,10 +1,11 @@
 // Le but de ce jeu s'inspire de Codingame
-// Dans ce test nous devons avoir en sortie 3a4b5c
+// Dans ce test nous devons avoir en sortie => 3a4b5c
+
 function encode(str){
     //Mettre tout en minuscule
     str = str.toLowerCase();
-    //Initializé Compteur
-    let count = 1;
+    //Initialisé Compteur
+    let count = 1;2
     // String vide
     let code = "";
     //Différencie les lettres
