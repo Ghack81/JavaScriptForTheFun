@@ -1,5 +1,5 @@
 // Le but de ce jeu s'inspire de Codingame
-// Dans ce test nous devous avoir en sortie 3a4b5c
+// Dans ce test nous devons avoir en sortie 3a4b5c
 function encode(str){
     //Mettre tout en minuscule
     str = str.toLowerCase();
